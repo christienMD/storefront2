@@ -4,7 +4,7 @@ from . import views
 
 router = SimpleRouter()
 router.register("products", views.ProductViewSet)
-router.register("collection", views.CollectionViewSet)
+router.register("collections", views.CollectionViewSet)
 
 # URLConf
 urlpatterns = router.urls
